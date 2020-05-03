@@ -11,7 +11,7 @@ Follow README in the repository https://github.com/bulletmark/libinput-gestures#
 - I highly suggest installing Gestures: https://gitlab.com/cunidev/gestures a minimal GUI App for libinput-gestures.
 
 # Put the scripts somewhere
-Download the two files (3fingersdown.sh, 3fingersup.sh) from this repository and put them somewhere (I put theme in a hidden folder inside /home). In this case we will put them in (create the folder ```.libinputgestures-scripts``` inside /home **remember the . dot** ):
+Download the two files (3fingersdown.sh, 3fingersup.sh) from this repository and put them somewhere (I put theme in a hidden folder inside /home). In this case we will create a folder ```.libinputgestures-scripts``` inside your home folder **remember the . dot** ):
 ```sh
 ~/.libinputgestures-scripts/
 ```
@@ -20,7 +20,7 @@ Open terminal and type (for the access permissions I think, without it doesn't w
 chmod a+x ~/.libinputgestures-scripts/3fingersdown.sh
 chmod a+x ~/.libinputgestures-scripts/3fingersup.sh
 ```
-
+If you want that script works for all user  you have to change folder and change the following paths manually.
 
 # Edit your custom configuration file 
 Here is how to do it: https://github.com/bulletmark/libinput-gestures#configuration.
@@ -70,7 +70,7 @@ gsettings set org.gnome.desktop.wm.keybindings minimize "['<Super><Alt>Down']"
 gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Super><Alt>Up']"
 ```
 
-To **test** if the files works:
+To **test** if the files work:
 - Type: ```~/.libinputgestures-scripts/3fingersdown.sh``` on a terminal WINDOW, window should minimize
 - Type: ```~/.libinputgestures-scripts/3fingersup.sh```, window should maximize
 
