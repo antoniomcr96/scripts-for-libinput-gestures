@@ -55,7 +55,8 @@ You have to set some custom keyboard shortcuts because the script simulates thos
 - Switch to lower workspace: Control + Down
 - Minimize window: Super + Alt + Down
 - Fullscreen: Super + Alt + Up (F11 should still work)
-It works on non-Macs computers, I don't know if control key on Macs works the same for xdotool.
+
+**It works on non-Macs computers, I don't know if control key on Macs works the same for xdotool.**
 
 You can also do it manually by typing this on terminal, it should work:
 ```sh
