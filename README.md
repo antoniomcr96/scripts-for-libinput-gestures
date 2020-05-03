@@ -20,6 +20,11 @@ Open terminal and type (for the access permissions I think, without it doesn't w
 chmod a+x ~/.libinputgestures-scripts/3fingersdown.sh
 chmod a+x ~/.libinputgestures-scripts/3fingersup.sh
 ```
+To test if the files works:
+- Type: ```./.libinputgestures-scripts/3fingersdown.sh``` on a terminal WINDOW, window should minimize
+- Type: ```./.libinputgestures-scripts/3fingersup.sh```, window should maximize
+
+
 # Edit your custom configuration file 
 Here is how to do it: https://github.com/bulletmark/libinput-gestures#configuration.
 
