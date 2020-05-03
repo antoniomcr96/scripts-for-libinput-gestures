@@ -11,11 +11,11 @@ Follow README in the repository https://github.com/bulletmark/libinput-gestures#
 - I highly suggest installing Gestures: https://gitlab.com/cunidev/gestures a minimal GUI App for libinput-gestures.
 
 # Put the scripts somewhere
-Download the two files (3fingersdown.sh, 3fingersup.sh) from this repository and put them somewhere (I put theme in a hidden folder inside my user folder). In this case we will create a folder ```.libinputgestures-scripts``` inside your home folder **remember the . dot** ):
+Download the two files (3fingersdown.sh, 3fingersup.sh) from this repository and put them somewhere (I put them in a hidden folder inside my user folder). In this case we will create a folder ```.libinputgestures-scripts``` inside your home folder **remember the . dot**:
 ```sh
-~/.libinputgestures-scripts/
+mkdir ~/.libinputgestures-scripts/
 ```
-Open terminal and type (for the access permissions I think, without it doesn't work)
+Put the two files there, open terminal and type (for the access permissions I think, without it doesn't work)
 ```sh
 chmod a+x ~/.libinputgestures-scripts/3fingersdown.sh
 chmod a+x ~/.libinputgestures-scripts/3fingersup.sh
