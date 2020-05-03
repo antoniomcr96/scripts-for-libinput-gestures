@@ -20,9 +20,6 @@ Open terminal and type (for the access permissions I think, without it doesn't w
 chmod a+x ~/.libinputgestures-scripts/3fingersdown.sh
 chmod a+x ~/.libinputgestures-scripts/3fingersup.sh
 ```
-To test if the files works:
-- Type: ```~/.libinputgestures-scripts/3fingersdown.sh``` on a terminal WINDOW, window should minimize
-- Type: ```~/.libinputgestures-scripts/3fingersup.sh```, window should maximize
 
 
 # Edit your custom configuration file 
@@ -72,6 +69,11 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up "['<Contro
 gsettings set org.gnome.desktop.wm.keybindings minimize "['<Super><Alt>Down']"
 gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Super><Alt>Up']"
 ```
+
+To **test** if the files works:
+- Type: ```~/.libinputgestures-scripts/3fingersdown.sh``` on a terminal WINDOW, window should minimize
+- Type: ```~/.libinputgestures-scripts/3fingersup.sh```, window should maximize
+
 # Why I use xdotool to simulate shortcut
 The script can be edited and adapted to your personal shortcuts with some basic programming knowledge. You can also use direct commands (without simulating shortcuts) to maximize/minimize windows and so on. 
 The reason why I simulate shortcuts is because at the beginning I used to do so. The shortcut are specific also for another reason:
