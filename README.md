@@ -12,7 +12,7 @@ Follow README in the repository https://github.com/bulletmark/libinput-gestures#
 
 # Put the scripts somewhere
 Download the two files (3fingersdown.sh, 3fingersup.sh) from this repository and put them somewhere (I put theme in a hidden folder inside /home). In this case we will put them in (create the folder ```.libinputgestures-scripts``` inside /home **remember the . dot** ):
-```
+```sh
 ~/.libinputgestures-scripts/
 ```
 Open terminal and type (for the access permissions I think, without it doesn't work)
@@ -21,8 +21,8 @@ chmod a+x ~/.libinputgestures-scripts/3fingersdown.sh
 chmod a+x ~/.libinputgestures-scripts/3fingersup.sh
 ```
 To test if the files works:
-- Type: ```./.libinputgestures-scripts/3fingersdown.sh``` on a terminal WINDOW, window should minimize
-- Type: ```./.libinputgestures-scripts/3fingersup.sh```, window should maximize
+- Type: ```~/.libinputgestures-scripts/3fingersdown.sh``` on a terminal WINDOW, window should minimize
+- Type: ```~/.libinputgestures-scripts/3fingersup.sh```, window should maximize
 
 
 # Edit your custom configuration file 
