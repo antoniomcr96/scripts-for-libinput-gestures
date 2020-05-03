@@ -11,7 +11,7 @@ Follow README in the repository https://github.com/bulletmark/libinput-gestures#
 - I highly suggest installing Gestures: https://gitlab.com/cunidev/gestures a minimal GUI App for libinput-gestures.
 
 # Put the scripts somewhere
-Download the two files (3fingersdown.sh, 3fingersup.sh) from this repository and put them somewhere (I put theme in a hidden folder inside /home). In this case we will put them in (create the folder ```.libinputgestures-scripts``` inside /home):
+Download the two files (3fingersdown.sh, 3fingersup.sh) from this repository and put them somewhere (I put theme in a hidden folder inside /home). In this case we will put them in (create the folder ```.libinputgestures-scripts``` inside /home **remember the . dot** ):
 ```
 ~/.libinputgestures-scripts/
 ```
