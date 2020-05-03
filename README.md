@@ -11,9 +11,14 @@ Follow README in the repository https://github.com/bulletmark/libinput-gestures#
 - I highly suggest installing Gestures: https://gitlab.com/cunidev/gestures a minimal GUI App for libinput-gestures.
 
 # Put the scripts somewhere
-Download the two files (3fingersdown.sh, 3fingersup.sh) from this repository and put them somewhere (I put theme in a hidden folder inside /home). In this case we will put them in (create the folder ./libinputgestures-scripts inside /home):
+Download the two files (3fingersdown.sh, 3fingersup.sh) from this repository and put them somewhere (I put theme in a hidden folder inside /home). In this case we will put them in (create the folder ```.libinputgestures-scripts``` inside /home):
 ```
 ~/.libinputgestures-scripts/
+```
+Open terminal and type (for the access permissions I think, without it doesn't work)
+```sh
+chmod a+x ~/.libinputgestures-scripts/3fingersdown.sh
+chmod a+x ~/.libinputgestures-scripts/3fingersup.sh
 ```
 # Edit your custom configuration file 
 Here is how to do it: https://github.com/bulletmark/libinput-gestures#configuration.
@@ -68,7 +73,8 @@ The reason why I simulate shortcuts is because at the beginning I used to do so.
 2. If you press Alt the window will be minimized no matter what.
 
 # Other things
-1. The [scripts are commented]. Code is VERY simple and who wants can easily edit it with some basic programming knowledge. 
-2. I'm not an expert programmer and many things can be improved. Feel free to give your contribution;
+1. The **scripts are commented**. Code is VERY simple and who wants can easily edit it with some basic programming knowledge. 
+2. I'm not an expert programmer and many things can be improved. **Feel free to give your contribution**;
 3. I don't have a lot of free time, so I can't follow actively the project, solve issues or give help.
 4. If gestures are sometimes detected sometimes not it doesn't depend on the script.
+5. It would be cool to create a script that does what's explained in this readme. At the moment I don't have the time unfortunally.
