@@ -2,7 +2,7 @@
 > These are some scripts that assign to trackpad gestures (through libinput-gestures) commands based on window focused and its position/aspect.
 You can see a preview of what it does here: https://www.reddit.com/r/Ubuntu/comments/gccawq/made_some_scripts_for_libinputgestures_to_control/
 
-It's simply based on two files and some commands that have to be put to the configuration file of libinput-gestures.
+It's simply based on two files and some commands that have to be put to the configuration file of libinput-gestures. I use in Ubuntu 20.04 with Gnome 3.36
 
 # Install Libinput Gestures
 Follow README in the repository https://github.com/bulletmark/libinput-gestures#libinput-gestures. Remember to install ```xdotool```. 
