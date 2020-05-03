@@ -29,8 +29,8 @@ I highly suggest to do it using Gestures: https://gitlab.com/cunidev/gestures
 - Set ```~/.libinputgestures-scripts/3fingersdown.sh``` for three fingers swipe down;
 - Set ```xdotool key SUPER+0xff51``` for three fingers swipe left;
 - Set ```xdotool key SUPER+0xff53``` for three fingers swipe right;
-- Set ```xdotool key SUPER+0xff52``` for four fingers swipe up;
-- Set ```xdotool key SUPER+0xff54``` for four fingers swipe down.
+- Set ```xdotool key control+SUPER+0xff52``` for four fingers swipe up;
+- Set ```xdotool key control+SUPER+0xff54``` for four fingers swipe down.
 
 If you want to do it manually you have to create a file called ```libinput-gestures.conf``` in ```~/.config/``` (if you want to use it for your user) and put these lines:
 ```
